@@ -32,10 +32,6 @@ public class SeoulWifiData {
             System.out.println(responseBody);
 
             return responseBody;
-            // Gson 라이브러리를 사용하여 JSON 문자열을 Map 객체로 변환
-
-
-            // TbPublicWifiInfo 객체에서 원하는 값 가져오기
 
 
 
@@ -50,7 +46,7 @@ public class SeoulWifiData {
 
 
         Connection con = JdbcUtill.getConnection();
-
+        DbConnection.DbDeleteTable(con);
 
 
         while (true) {

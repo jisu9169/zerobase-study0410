@@ -25,10 +25,6 @@ public class Root {
         private Result RESULT;
         private List<Row> row;
 
-
-
-
-
         @Data
         @AllArgsConstructor
         public static class Result {
