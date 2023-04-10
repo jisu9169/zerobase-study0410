@@ -1,0 +1,61 @@
+* {
+    font-weight: bold;
+}
+h1{
+    font-size:36px;
+    font-weight: bold;
+
+}
+a {
+    margin-right:2px;
+    padding-bottom:20px;
+}
+a + a:before {
+    content: "|";
+    margin: 0 10px;
+    color:#999;
+}
+form {
+    margin-top: 10px;
+}
+
+table {
+    margin-top:10px;
+    border-collapse: collapse; /* 셀 경계선 합치기 */
+    width: 100%; /* 테이블 너비 */
+}
+
+/* 행 스타일 */
+
+
+#two td:first-child {
+    background-color: mediumseagreen;
+    color:honeydew;
+}
+.three{
+    background-color: mediumseagreen;
+    color:honeydew;
+}
+
+tr:nth-child(even)  {
+    background-color: #d9d9d9; /* 배경색 */
+}
+
+tr:nth-child(even) td {
+    background-color: #f2f2f2; /* 배경색 */
+}
+
+#one{
+    background-color: mediumseagreen;
+    color:honeydew;
+}
+
+
+
+
+/* 셀 스타일 */
+td {
+    padding: 8px; /* 셀 안 여백 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    border: 1px solid #ddd; /* 셀 경계선 */
+}
